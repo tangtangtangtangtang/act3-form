@@ -1,0 +1,32 @@
+{
+    "name": "act3-form",
+    "version": "0.0.1",
+    "description": "antd4-useform根据json生成form",
+    "scripts": {
+        "build": "node ./build.js",
+        "test": "jest"
+    },
+    "main": "es/index.js",
+    "files": [
+        "README.md",
+        "es"
+    ],
+    "author": "xz",
+    "license": "MIT",
+    "devDependencies": {
+        "@babel/core": "^7.0.0",
+        "fs-extra": "^9.0.1",
+        "@babel/preset-env": "^7.10.4",
+        "@babel/preset-react": "^7.10.4",
+        "@babel/preset-typescript": "^7.10.4",
+        "jest": "^26.1.0"
+    },
+    "dependencies": {
+        "antd": "^4.4.3",
+        "classnames": "^2.2.6",
+        "lodash-es": "^4.17.15",
+        "moment": "^2.16.0",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1"
+    }
+}
